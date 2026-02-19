@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}Welcome!
+			{% endblock %}
+		</title>
+		{# <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>"> #}
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+		<link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
+		<link rel="shortcut icon" href="{{ asset('favicon/favicon.ico') }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> {% block stylesheets %}{% endblock %}
+
+		{% block javascripts %}
+			{# FullCalendar JS (global build) #}
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.20/index.global.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.20/index.global.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/timegrid@6.1.20/index.global.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/interaction@6.1.20/index.global.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/bootstrap5@6.1.20/index.global.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.20/locales/fr.global.min.js"></script>
+			{% block importmap %}
+				{{ importmap('app') }}
+			{% endblock %}
+		{% endblock %}
+	</head>
+	<body>
+		{% include "shared/_navbar.html.twig" %}
+		{% include "partials/_flash.html.twig" %}
+		{% block body %}{% endblock %}
+		<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+			<i class="fa-solid fa-arrow-up"></i>
+		</a>
+	</body>
+</html>
