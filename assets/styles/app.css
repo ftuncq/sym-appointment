@@ -538,7 +538,7 @@ html[data-bs-theme="dark"] {
     padding: 8px 16px;
     font-size: 16px;
     border-radius: 4px;
-    background-color: rgb(52, 96, 206);
+    background-color: rgb(18, 25, 73);
     color: rgb(255, 255, 255);
     font-weight: 500 !important;
 }
@@ -2279,7 +2279,7 @@ form:invalid button.btn-dark[type=submit],
 .f6416l {
     background: linear-gradient(to bottom, #5BAEBE, #9FD0BD);
     /* vert clair vers vert foncé */
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
 }
 
@@ -2291,7 +2291,7 @@ form:invalid button.btn-dark[type=submit],
     object-position: center center;
     margin: 0 auto;
     aspect-ratio: unset;
-    width: 60%;
+    width: 100%;
     height: auto;
     min-height: 225px;
 }
