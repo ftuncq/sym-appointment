@@ -3,7 +3,7 @@ twig:
     form_themes: ["bootstrap_5_layout.html.twig"]
     globals:
         companyRepository: '@App\Repository\CompanyRepository'
-        appName: "L'ODYSSÉE DES NOMBRES"
+        appName: "FRANCE TUNCQ"
 
 when@test:
     twig:
