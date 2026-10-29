@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "branch": "livraison/ga4-france-20261029",
+  "base_commit": "360d7811c690940dc1fa67ed22f5f2f0873758c3",
+  "commit_reference": "Commit containing this file; exact SHA recorded after creation in var/analytics-git/release-sha.txt outside this commit",
+  "archive": "20261029-france.zip",
+  "archive_sha256": "6e3bb812ffb307c422659f7974a51058ea1c90cdc489238077b397beb31006f3",
+  "candidate_manifest": "docs/analytics-ga4-france-livrable-20261029.json",
+  "candidate_manifest_sha256": "a25caf3310fd22b1e13efa8bbbb636407dce6941e7cdc39fafa0b2ab1702c566",
+  "application_source_bytes_changed_since_verified_candidate": false,
+  "default_GA4_ENABLED": "0",
+  "source_files": [
+    {
+      "path": ".env.ga4.example",
+      "sha256": "aece736742173f5f07c34af5720b3ddd7f68e82ea4fe1753f75d30d15f90b511",
+      "bytes": 338
+    },
+    {
+      "path": "assets/controllers/appointment_type_controller.js",
+      "sha256": "6cfcb047c2f1d4ae62ec9a947477f0449cefeba8861e91e9ce0d47b09a029e8d",
+      "bytes": 3592
+    },
+    {
+      "path": "assets/modules/analytics.js",
+      "sha256": "237c546ac32fc7270d4c4dce414e9de430ac035fc51333eb4f5f72b214ae2d57",
+      "bytes": 9648
+    },
+    {
+      "path": "assets/modules/analytics_frame.js",
+      "sha256": "7dc88b50f4b03dd3f1a24676338563ce7ccd1ff38c6222e4e9a54312c4dd5765",
+      "bytes": 4433
+    },
+    {
+      "path": "assets/modules/analytics_policy.js",
+      "sha256": "2c06777aa3ce6a5d3a64a581658d1fc41f48c6c651d0877b050c4c6d72e2bc47",
+      "bytes": 3219
+    },
+    {
+      "path": "assets/modules/analytics_transport.js",
+      "sha256": "e9e4a04efb568b66529ae5486c14fcbb9d46744f394822fb690dcf831a8e9185",
+      "bytes": 2619
+    },
+    {
+      "path": "assets/styles/app.css",
+      "sha256": "a7f9433a85ac32d10016db39e2ae29a5813bfcedb7e6f632cc9c57fd138c4799",
+      "bytes": 76226
+    },
+    {
+      "path": "config/packages/twig.yaml",
+      "sha256": "e9b835747dd286ee73e03cd8fea1ef9ed5dde5889d02756a5eb2e4e8381ba44b",
+      "bytes": 301
+    },
+    {
+      "path": "config/services.yaml",
+      "sha256": "56d8b67142f5b7fd1672f399269adb3065e6d294d80101ab63293f15dc60632c",
+      "bytes": 2511
+    },
+    {
+      "path": "importmap.php",
+      "sha256": "1ecf7d1709f87f7b17623153f2003d2916245feca02e17e8aae388423401da3b",
+      "bytes": 1478
+    },
+    {
+      "path": "src/Analytics/AnalyticsConfig.php",
+      "sha256": "a8653d656cfeb6f0be929ffc91442c7b5c0595b5912a225f76aed80c4ef6ff00",
+      "bytes": 3142
+    },
+    {
+      "path": "src/Controller/AnalyticsController.php",
+      "sha256": "2c20410620a71b7bb4869ded45bb71be95fa9bd83fa18d7ab04a11d622936503",
+      "bytes": 1115
+    },
+    {
+      "path": "templates/analytics/_consent.html.twig",
+      "sha256": "67fd3847bce19cba7e8025a46db9987ce235e9b5bb7d4da779cc665c4833966e",
+      "bytes": 1347
+    },
+    {
+      "path": "templates/analytics/frame.html.twig",
+      "sha256": "c2c013911b0c4a0c652af29cd032da097e3ba7395c4c2c04b926712820640cd3",
+      "bytes": 298
+    },
+    {
+      "path": "templates/appointment/type_detail.html.twig",
+      "sha256": "f54f12f4cd600b8963e118c34799f29d510e5e673297d960d9e38d7de070149b",
+      "bytes": 1754
+    },
+    {
+      "path": "templates/base.html.twig",
+      "sha256": "1933e5e71da43f86496c3a40ab2f4af3952d614249c53daaf33698da1f74cb86",
+      "bytes": 8465
+    },
+    {
+      "path": "templates/legal/privacy.html.twig",
+      "sha256": "689ff3d20dc5cebe6b049e29aa20fec6dc96111cb57e1cf3744ae3112fd4a281",
+      "bytes": 34989
+    },
+    {
+      "path": "templates/partials/_featured_appointment.html.twig",
+      "sha256": "df81de193f82517b78d78aae1f73d18fbe4fce52378cdc37be7ca11f49bd26e2",
+      "bytes": 1943
+    }
+  ],
+  "associated_asset_files": [
+    {
+      "path": "public/assets/@symfony/stimulus-bundle/controllers-fwjiKb2.js",
+      "sha256": "9564e598d0f53491722856b0fc214b0597ab35d1c5bd194ddaf37a90269026b6",
+      "bytes": 1855
+    },
+    {
+      "path": "public/assets/@symfony/stimulus-bundle/loader-V1GtHuK.js",
+      "sha256": "f871d8febde50ffc633b3e4801f6927b1ae46c841a1d7f003b13d255d144a13c",
+      "bytes": 3289
+    },
+    {
+      "path": "public/assets/@symfony/ux-toggle-password/controller-iZN0ACt.js",
+      "sha256": "d9082501dfdada95a521a7621fc60096e963a582d42128c7307f64592aa23dae",
+      "bytes": 2940
+    },
+    {
+      "path": "public/assets/@symfony/ux-toggle-password/style.min-XmGIIO3.css",
+      "sha256": "9008b6ca086f22b7bcff24472cc7a0c4be52bdbdb1cc94b1ec12a5239c437c27",
+      "bytes": 311
+    },
+    {
+      "path": "public/assets/@symfony/ux-turbo/turbo_controller-8wQNi2p.js",
+      "sha256": "65b1725e7ef72ba1214080a2a288cd0d7fa8f08d05679ae8965469c9d7556411",
+      "bytes": 213
+    },
+    {
+      "path": "public/assets/@symfony/ux-turbo/turbo_stream_controller-LcKyCZE.js",
+      "sha256": "6e9f38dded30b34665a110800fcfa23668af875d5e93b1e688cb49d23b19925c",
+      "bytes": 1326
+    },
+    {
+      "path": "public/assets/app-Nuhmc1T.js",
+      "sha256": "0da1ba8f5cdf713ef8efc432a66ed60a8fce2a361e212d7ce5bc5fbcd7463945",
+      "bytes": 1740
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/app.8222474a-4q2Ol9O.js",
+      "sha256": "852fadaf1cabb41a3cce7d26c501507869bf03f3c7c4f01b23c350ff3c2f1e9f",
+      "bytes": 161133
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/app.8222474a.js.LICENSE-0fBCyWD.txt",
+      "sha256": "01968560a6c92babbff91a176a5d4d930ca1ea2e3fde3ff20d191ddd939e654d",
+      "bytes": 237
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/app.f9f0ca7b-0AswEtv.css",
+      "sha256": "ce7294b62a702c48dbf7fea86319c36232b4b8330468b1db16ad714db8a79de8",
+      "bytes": 495272
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/entrypoints-dnyWIxL.json",
+      "sha256": "5dcc3467fdee0b1e9f6bf2f92e01c23b233f5c330ff5a012a0ca5bed091a80b6",
+      "bytes": 1338
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-boolean.adeeab81-xdKIvWm.js",
+      "sha256": "5ada4d4432150f95214492adaa3d4de4114b7bfa79b96358325223cf9e21d541",
+      "bytes": 2013
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-code-editor.877c61fa-Qw_ZgIL.js",
+      "sha256": "1fd555d834496720abaf8ad30377538e3b2cf49e2cfe348ea75e7efb16bb0e36",
+      "bytes": 361073
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-code-editor.cdcf15eb-T8GkehG.css",
+      "sha256": "8689639798872f28be4d27668b545e46d41f222c923aa752ab2c3d91635a0b56",
+      "bytes": 8496
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-collection.2f5a0337-Lmr8tsb.js",
+      "sha256": "e2ff3004886d34d44b227abc3b1763decd62f5cfe9c9d9ecedbc92d95da59ecf",
+      "bytes": 3128
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-file-upload.5c32db38-wqU1pwC.js",
+      "sha256": "274b7623ca18078926b7fe73544b78f18f7c5c5e0b37d691ce8ad0f22c08f6a4",
+      "bytes": 4296
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-image.c338d2ad-vK9DshL.js",
+      "sha256": "39b0a5554bacf0a01080de4e0610a89bc7395affe0ff49d9551dedf4296b0bce",
+      "bytes": 4925
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-slug.ba7fb8e5-5m-QLNv.js",
+      "sha256": "70ea924e46ecec9c7cb8e177fbcc8c7bb37a27efbd4e1f92c23f3c5347ff694f",
+      "bytes": 12758
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-text-editor.3e768b9b-iPEGerW.js",
+      "sha256": "6fcf844cc15b2b09a7efb6acf669283ff5c02013a3d30f214af0f9dd93af8067",
+      "bytes": 214198
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-text-editor.3e768b9b.js.LICENSE-xzTldSs.txt",
+      "sha256": "29f856b9b8d4514fa1101e09c35b2d3b0e44c561ccf8326979b0507a42ebff2f",
+      "bytes": 188
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-text-editor.d426785c-m0Mz-LU.css",
+      "sha256": "d865b140520b4c3a9b1cef7ea8ef8a96d1c8a36894e2f25b525672e7a1a79523",
+      "bytes": 20115
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/field-textarea.98322d83-BYT-O2H.js",
+      "sha256": "ac29cfaa9374e57941bb2094bdd62ace82fb79be4dfdd3575f73660cded32e01",
+      "bytes": 2425
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-brands-400.26b80c88-5nNwFxQ.ttf",
+      "sha256": "276af0307107fc3e28218f3d580d2636b2a85966a309b9c937c799f3e14f4ea2",
+      "bytes": 210736
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-brands-400.fdbb5585-VhmzWAT.woff2",
+      "sha256": "4d46c3bcd49e008582f1c01ee88ed9a494d150643e3e947eb7710180808403c9",
+      "bytes": 118724
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-regular-400.05fdd87b-0ROc0Bp.ttf",
+      "sha256": "7caa2d8d6cc03c5ee9fc23eab7a193b4e3ce667469c3f955a35f957a14ac2b7e",
+      "bytes": 68064
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-regular-400.4f6a2dab-hTK2JLa.woff2",
+      "sha256": "003b55144f370c07c2bc6f8f80455bca7d61a2fb2766551883734249e953e700",
+      "bytes": 25484
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-solid-900.83a538a0-As1_veV.woff2",
+      "sha256": "38e76ab3d359e772e9f2aab11fbb07a2e2209318183a89ced0a97d6b958a7a6f",
+      "bytes": 158224
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-solid-900.ad1782c7-DwgzoHm.ttf",
+      "sha256": "23c4f99ee90741117109d813b937b9bc6e971a2781fede7aa975414acec4f53f",
+      "bytes": 426112
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-v4compatibility.c3ea317a-i7H2n8L.woff2",
+      "sha256": "d0cd8241178cb658c2dff876fd67ceaa926198c31449bfa1d9b5199cc57c1895",
+      "bytes": 4788
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/fonts/fa-v4compatibility.fa86b3c8-1nLAMsl.ttf",
+      "sha256": "e868f3012f72e15ee6e525366989549a8b60e42b484e4a22518ba657287b1740",
+      "bytes": 10836
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/form.875c88d4-7inSDE_.js",
+      "sha256": "aac19a991226537e0a5b980a824c3258c921c4f1984f0d713988834d46bd29e7",
+      "bytes": 7298
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/login.7259f5de-1mDR5J1.js",
+      "sha256": "961a21707d06395bd6463f6c0cc22e685dd33e249d2d7ab7c4f6b6b3b70fc57a",
+      "bytes": 170
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/manifest-ubuHVLO.json",
+      "sha256": "29ada2d61a13d335f52f115c95f56582b2f9db9770e6c12c63148f0ccdb827a4",
+      "bytes": 1348
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/page-color-scheme.30cb23c2-lXpFH5W.js",
+      "sha256": "049d326d8cc21438e135a295209c80e4205be22513c78e6d20ee1850c7e4d6e3",
+      "bytes": 3322
+    },
+    {
+      "path": "public/assets/bundles/easyadmin/page-layout.6e9fe55d-sMGmPXz.js",
+      "sha256": "8ddc3a0da700b2540a843a15d8399559fc2dd2138c91b3cd32e704dcd3bf493a",
+      "bytes": 243
+    },
+    {
+      "path": "public/assets/controllers/address_autocomplete_controller-7qYRO9B.js",
+      "sha256": "715b137331722266cd1592ab7ec2307604f94403618d754594abeef8c3ba97e9",
+      "bytes": 3341
+    },
+    {
+      "path": "public/assets/controllers/ajax_form_controller-v72_Yhm.js",
+      "sha256": "98b0b4e5d4c352d0bc664d19a7dcfc7e0f46d0ed68a18f7fe518474673fafde6",
+      "bytes": 1307
+    },
+    {
+      "path": "public/assets/controllers/appointment-cancel_controller-tgbpzdq.js",
+      "sha256": "c9b5ec906d201653cf0af902ae620fe20b7c58e52c8f9c99f853cc56c24b76c8",
+      "bytes": 6281
+    },
+    {
+      "path": "public/assets/controllers/appointment_checkout_controller-dIIzVbU.js",
+      "sha256": "486b72efacd5e54f11b230eeaee09ff9e8b94309673fa5884f61724f383aad07",
+      "bytes": 268
+    },
+    {
+      "path": "public/assets/controllers/appointment_reschedule_controller-noyNoKT.js",
+      "sha256": "134f464b7f9c6e5479947ee31fca14b3012a6bb1911dcb39218ea36c82878f3e",
+      "bytes": 9802
+    },
+    {
+      "path": "public/assets/controllers/appointment_type_controller-JhoOHEB.js",
+      "sha256": "6cfcb047c2f1d4ae62ec9a947477f0449cefeba8861e91e9ce0d47b09a029e8d",
+      "bytes": 3592
+    },
+    {
+      "path": "public/assets/controllers/calendar_controller-exWKarE.js",
+      "sha256": "89aaa9d474dc0bfe745d83e1b6dbd853215a11fcb8154d11c3a7ac5518058e45",
+      "bytes": 23907
+    },
+    {
+      "path": "public/assets/controllers/csrf_protection_controller-6ynUAeX.js",
+      "sha256": "d2cb6e4f0239657631953d72060f80b5199d5fa10820905559b711852614b3c0",
+      "bytes": 3346
+    },
+    {
+      "path": "public/assets/controllers/delete_account_controller-WJUg0JH.js",
+      "sha256": "6ba67ef4d4bc37cdacb08fd764e2b58cec878f9196083299b65e78636ad122b5",
+      "bytes": 325
+    },
+    {
+      "path": "public/assets/controllers/hello_controller-VYgvytJ.js",
+      "sha256": "f4fde09e2f16bfb4c702487cf91916c0f4f7e3411ea0aa6fec42210191841e86",
+      "bytes": 500
+    },
+    {
+      "path": "public/assets/controllers/names_formatter_controller-jyt--ps.js",
+      "sha256": "7ae3412982b04c1de642ca1ae2909dc13e03b867f262ec0dd02cd982cfdb5fa7",
+      "bytes": 1630
+    },
+    {
+      "path": "public/assets/controllers/register_controller-SCJpW90.js",
+      "sha256": "5283b3e754736e582f8a8b906224a295a4bf49553d59e5e53a8087b99219e445",
+      "bytes": 3712
+    },
+    {
+      "path": "public/assets/controllers/reset_password_controller-xGqMpsK.js",
+      "sha256": "724dbb39f91999f6e057e9a7d4f92553ada5881ee7d4ba836fbfa6e6a2949690",
+      "bytes": 1608
+    },
+    {
+      "path": "public/assets/controllers/theme_controller-XgaTcoK.js",
+      "sha256": "d2d1cc01c5cc3362666dac5d7024cc0e48f86eed413ed9d6f6a605a8f94ecf4c",
+      "bytes": 2182
+    },
+    {
+      "path": "public/assets/entrypoint.analytics-frame.json",
+      "sha256": "31f69934d2aa98ae9e12396274a4eaedcce7dd47c8239ab8250af5de8595f40e",
+      "bytes": 97
+    },
+    {
+      "path": "public/assets/entrypoint.analytics.json",
+      "sha256": "bc5b6eb843aac75af1f3ac4064d202802080eba8c59a57e7dfd04f904a5af09a",
+      "bytes": 48
+    },
+    {
+      "path": "public/assets/entrypoint.app.json",
+      "sha256": "1e46d6006619abd8d77ef4a938729f195d7b38cbe391ad00160664570edfb30d",
+      "bytes": 1391
+    },
+    {
+      "path": "public/assets/fonts/DidactGothic-Regular-N7i4-F1.ttf",
+      "sha256": "b41981e61095049122f77e334758fa635d11195814e1130efe4b7d810445d741",
+      "bytes": 180660
+    },
+    {
+      "path": "public/assets/fonts/Roboto-Italic-ouh0_aA.ttf",
+      "sha256": "5a2f18bddbe3ac07f14d38817d1fd22df4e8e3b74f661f7ae7b29cc8140092bc",
+      "bytes": 152208
+    },
+    {
+      "path": "public/assets/fonts/Roboto-Regular-HUQMpjN.ttf",
+      "sha256": "dbd285b518e398832f6f4a736109c355ce25a49546bfce41bab256c9ef7e56eb",
+      "bytes": 146004
+    },
+    {
+      "path": "public/assets/img/bg-01-nmaz7Fi.jpg",
+      "sha256": "11b304615ce130426ad11133de9ee67fa95b2f084a5b3e45ee70aa049f2abad8",
+      "bytes": 164220
+    },
+    {
+      "path": "public/assets/img/bg-contact-form-puRn4Xx.jpg",
+      "sha256": "b35f8ce307c18481d377072ea5d7d9184c6db867a4579a3afb158656cf7a4976",
+      "bytes": 1744523
+    },
+    {
+      "path": "public/assets/img/check-cB6sOcq.svg",
+      "sha256": "55b166a7f5c218c606e70da65cf4c2014d340a0a27fcc7728b1c4e882b0d0149",
+      "bytes": 245
+    },
+    {
+      "path": "public/assets/img/Ensemble formes-Idu-GI9.jpg",
+      "sha256": "5aff25937012abb9f6bc8455fc4ab680fd2e14662ddf0bdcd182990238ba9f21",
+      "bytes": 91516
+    },
+    {
+      "path": "public/assets/img/France Tuncq 2023-cd0PSqg.png",
+      "sha256": "ac99762a46a987811b3025d75c5ac742a77547e861abe0fd68c199e0e6182052",
+      "bytes": 253304
+    },
+    {
+      "path": "public/assets/img/list-ul-z5FiED9.svg",
+      "sha256": "c1b3b9dc41cd715d80f78cd8739f917b343d4743801f56062f7cacbc6cc9ddfa",
+      "bytes": 788
+    },
+    {
+      "path": "public/assets/img/logo-ErF_szY.png",
+      "sha256": "a8cd1e585721202ba8ab70b34e99d9f3b410e275b2344ce58210e1d4344c2cfe",
+      "bytes": 32511
+    },
+    {
+      "path": "public/assets/img/not-found-8aQxEL1.svg",
+      "sha256": "e68bffb3d1be39ac86686b54e11d7bbc5ea8e3265db45ba83b18e602b6fd7fe0",
+      "bytes": 7486
+    },
+    {
+      "path": "public/assets/importmap.json",
+      "sha256": "476c8e8cc41c9ad4c1902b608069278b84b089954206c7cd45917f0a906c2350",
+      "bytes": 5171
+    },
+    {
+      "path": "public/assets/js/payment-2oUGeeQ.js",
+      "sha256": "6e1a3d70320d6f612703f8f662a878d9cd904191af7033ca899a3dd1fe722af5",
+      "bytes": 2248
+    },
+    {
+      "path": "public/assets/manifest.json",
+      "sha256": "e83bc75ab1b4611e5816fe1c1df5d39935f759194ae6cb37f9e3993cf08b5e9c",
+      "bytes": 8972
+    },
+    {
+      "path": "public/assets/modules/analytics-Nzf8tk6.js",
+      "sha256": "237c546ac32fc7270d4c4dce414e9de430ac035fc51333eb4f5f72b214ae2d57",
+      "bytes": 9648
+    },
+    {
+      "path": "public/assets/modules/analytics_frame-cUAOqzH.js",
+      "sha256": "7dc88b50f4b03dd3f1a24676338563ce7ccd1ff38c6222e4e9a54312c4dd5765",
+      "bytes": 4433
+    },
+    {
+      "path": "public/assets/modules/analytics_policy-dCp5LML.js",
+      "sha256": "2c06777aa3ce6a5d3a64a581658d1fc41f48c6c651d0877b050c4c6d72e2bc47",
+      "bytes": 3219
+    },
+    {
+      "path": "public/assets/modules/analytics_transport-afxGn-8.js",
+      "sha256": "e9e4a04efb568b66529ae5486c14fcbb9d46744f394822fb690dcf831a8e9185",
+      "bytes": 2619
+    },
+    {
+      "path": "public/assets/modules/passwordUtils-wqwNjR6.js",
+      "sha256": "11b43965d05ccb12adda17e2a0f31093504bd77ef45348cb734368a3d6474b91",
+      "bytes": 5641
+    },
+    {
+      "path": "public/assets/stimulus_bootstrap-4G3ThDI.js",
+      "sha256": "84af8eb4aa0c9fd66da63104fb262c6b53fe13f46bef78683fe8fd34badfc1db",
+      "bytes": 1848
+    },
+    {
+      "path": "public/assets/styles/app-vMqaYPR.css",
+      "sha256": "089fc10c3e17a92a0dafe5a5e94f84036f2c5fd0893c487ce76baebcb3eb4dfb",
+      "bytes": 76290
+    },
+    {
+      "path": "public/assets/vendor/@fortawesome/fontawesome-free/css/all-WkGUGdG.css",
+      "sha256": "a8ef82fc2214c3e4c8663ff0530f64d530f85590bd37ac31b26306e04e93df68",
+      "bytes": 110194
+    },
+    {
+      "path": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400-knbNHNF.woff2",
+      "sha256": "061dd5c333459ea42dba764617793fd6ea2d316b7ab644f157e4d2354dac02af",
+      "bytes": 101224
+    },
+    {
+      "path": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400-i0pxvOt.woff2",
+      "sha256": "81159a6b36876a5545555ae689144f074e2fc802d57d36f2c21bc6f3a12f4e48",
+      "bytes": 18988
+    },
+    {
+      "path": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900-VmDRUqg.woff2",
+      "sha256": "bdd7887ef769948024a5cc37a018f19da6a9b355b4a09973836115e0d31ead55",
+      "bytes": 113152
+    },
+    {
+      "path": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility-wg75Fu-.woff2",
+      "sha256": "c18e29ec6e1d46025f8fb1cf2e636c38078598ffa9399ccc52c7df07bb4ab1d0",
+      "bytes": 4040
+    },
+    {
+      "path": "public/assets/vendor/@hotwired/stimulus/stimulus.index-S4zNcea.js",
+      "sha256": "73c82dca8457fdce7c99eff58d664f849856c1fd0d85193bb639b43758ea367c",
+      "bytes": 45812
+    },
+    {
+      "path": "public/assets/vendor/@hotwired/turbo/turbo.index-pT15T6h.js",
+      "sha256": "7bdbb2251f5922901dba79b53292585dff487cc1d9d33ef83f0c751b66e13470",
+      "bytes": 76547
+    },
+    {
+      "path": "public/assets/vendor/@popperjs/core/core.index-QBO6pjP.js",
+      "sha256": "2f01977b7ccccf15305992ae5610e140bc59497ebb2165bc5a007aca07ccf770",
+      "bytes": 20467
+    },
+    {
+      "path": "public/assets/vendor/bootstrap/bootstrap.index-HgGqGv8.js",
+      "sha256": "379f3dd40dbd70ac45e19298fcf6c876a44e2a420b33dcef712d73d5d0b2f917",
+      "bytes": 60607
+    },
+    {
+      "path": "public/assets/vendor/bootstrap/dist/css/bootstrap.min-z0zQt-h.css",
+      "sha256": "8f8173cb2d8f867274aeb0cb15328e60f490c7f272351e51a55f1dabb486e4ff",
+      "bytes": 232066
+    },
+    {
+      "path": "public/assets/vendor/bootstrap-icons/font/bootstrap-icons.min-5BD67CJ.css",
+      "sha256": "83d663044af19bd2a7b22e91335973f72b2ba05ffc842c3f42b8eebe4d8e6f51",
+      "bytes": 86958
+    },
+    {
+      "path": "public/assets/vendor/bootstrap-icons/font/fonts/bootstrap-icons-1V4Um-X.woff",
+      "sha256": "f55513b7b591cb84a3b87ff0e34ea24d4831d6fedc22e54b911ca64b5b544a15",
+      "bytes": 180288
+    },
+    {
+      "path": "public/assets/vendor/bootstrap-icons/font/fonts/bootstrap-icons-RRK1R2r.woff2",
+      "sha256": "6c75710364a1ca5604267716f6d28997b26319fdb078cf11e0b42ab66ff2ea61",
+      "bytes": 134044
+    }
+  ],
+  "tests": [
+    {
+      "path": "tests/Analytics/AnalyticsTest.php",
+      "sha256": "b754045e0f5801efe04fe9a103ed4227cbfee3440be0ba9002047713e467f178",
+      "bytes": 5674
+    },
+    {
+      "path": "tests/Analytics/browser.py",
+      "sha256": "503122e16abc78ec38c4089807ba8b1ba963e93b054b91154fbcbeffcbb672d4",
+      "bytes": 28665
+    },
+    {
+      "path": "tests/Analytics/manual_recipe.py",
+      "sha256": "2a91a843eb48fe75dd9cb74df6649ee6f15f66d4c32b7d80ea148e2b2d6e0bd1",
+      "bytes": 16067
+    },
+    {
+      "path": "tests/Analytics/mock_recipe.py",
+      "sha256": "fd0ecad6b3a183d5819d4071e99fffbb84eb800d658940cfea3edb623b2e7efc",
+      "bytes": 2460
+    },
+    {
+      "path": "tests/Analytics/preview.php",
+      "sha256": "6a7cca339230fdd72292278e32a3474d851e8ce269af1a235bce3f51e8849342",
+      "bytes": 2464
+    },
+    {
+      "path": "tests/Analytics/real_driver.py",
+      "sha256": "04748f6e3241192b26664d7fad8c33325955cba8489af9f535a6386b62f7478e",
+      "bytes": 17368
+    },
+    {
+      "path": "tests/Analytics/real_preview.php",
+      "sha256": "db2e0da82bc2ccd13662901b560bf1314f2ace2248d4fa4d8f33826aecfa599b",
+      "bytes": 2592
+    },
+    {
+      "path": "tests/Analytics/real_recipe.py",
+      "sha256": "4ebaa4a907aeb3238038e255dc8daa0c82e2030412d1faab0423e0837d4ff703",
+      "bytes": 35238
+    },
+    {
+      "path": "tests/Analytics/transport_checks.js",
+      "sha256": "ec6f6168524bd78f8ad683cbda826a2983e9a9640ff7833530ea760bfd4c61e4",
+      "bytes": 4799
+    }
+  ],
+  "test_provenance": "Existing Analytics test source files copied unchanged; no collection journals/profiles; no real recipe run",
+  "compiled_assets_versioned": false,
+  "server_observation_provenance": "User-reported SSH inventory, not independently inspected; main at base with only composer.json final newline plus listed untracked files and private .env.local",
+  "limitations": [
+    "Historical manifests retained without rewriting",
+    "No new production/reception validation",
+    "DPA Personnalité juridique remains open"
+  ]
+}
