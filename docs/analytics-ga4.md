@@ -1,5 +1,15 @@
 # GA4 — premier lot, livré désactivé
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+La production est active sur G-MWZX1GYXZE ; les valeurs par défaut des deux dépôts locaux restent à GA4_ENABLED=0. Les rapports standards de production ne sont pas encore contrôlés et la rubrique DPA « Personnalité juridique » reste ouverte.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 **Intégration locale approuvée par délégation — 29 octobre 2026 :** l’utilisateur déclare la délégation de France et approuve les mentions visiteurs avec la formulation « France Tuncq et le prestataire chargé du développement et de la maintenance du site », ainsi que les deux harmonisations. Texte et harmonisations intégrés localement ; [contrôles, livrable isolé et procédure](analytics-ga4-livraison-20261029.md). Cette décision n’est ni une certification juridique ni une autorisation de publication/activation. Collecte désactivée. La rubrique « Personnalité juridique » du DPA demeure **vide / point administratif ouvert**, sans rattachement Marketing Platform ajouté.
 
 **Mentions préparées pour approbation, complément du 29 octobre :** [texte visiteur complet, non publié](analytics-ga4-mentions-france-brouillon.md) et [provenance/recherche officielle](analytics-ga4-controle-rapports.md#8-identité-accès-et-conditions-google--complément-du-29-octobre-2026). Exploitant POTENTIEL CONSULTING SASU, SIRET 91124890400029 ; siège **1 La Fendoire**, correspondance **1B La Fendoire**, 44770 La Plaine-sur-Mer. Contact DPA France Tuncq enregistré ; acceptation des conditions au 16 octobre ; seuls France/Stéphane utilisateurs, associations de produits toutes déclarées vides. Accès Google pour assistance/recommandations distincts ; deux autres options de partage désactivées. **La rubrique « Personnalité juridique » reste vide**, aucun rattachement Marketing Platform effectué. Les conditions publiques désignent Google Ireland Limited pour Analytics standard et décrivent les mécanismes de transfert ; elles ne certifient pas l’exécution propre au compte. Restent le renseignement de l’entité dans le DPA, l’approbation du texte par France, le futur livrable puis une décision d’activation séparée. Réception acquise et critère de retrait accepté inchangés ; aucun nouveau test, template modifié ou activation.

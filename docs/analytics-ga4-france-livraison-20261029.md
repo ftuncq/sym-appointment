@@ -1,5 +1,15 @@
 # GA4 — candidat adapté à France, 29 octobre 2026
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+Le commit 29bcd686bc1dc5e7dfdccbfb937cead80c19c6bc et le ZIP identifié ci-dessous sont rapportés déployés, puis l’activation autorisée a été effectuée. Le relevé du serveur complète la cible locale connue ; il n’est pas une inspection directe par cet agent. Les défauts locaux et les manifestes sont inchangés.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 **Préparation locale terminée, collecte désactivée.** Ce rapprochement ne vaut ni publication, ni activation, ni validation globale de production. Aucun appel Google, parcours de recette réelle, migration ou opération métier exécuté. La réception après correctif et les limites acceptées du retrait restent acquises dans leur périmètre historique ; elles ne sont pas rejouées.
 
 ## Cible effectivement examinée

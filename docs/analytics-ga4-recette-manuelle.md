@@ -1,5 +1,15 @@
 # Diagnostic manuel de réception GA4 — 21, 28 et 29 octobre 2026
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+La nouvelle observation porte sur la production : Temps réel affiche page_view 2, discover_session_click 1, view_service 1 et reserve_click 1. Le retour supplémentaire à l’accueil interdit de tirer une preuve de déduplication de ces compteurs. Les recettes antérieures ci-dessous restent distinctes.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 ## Exploration confirmée et rapprochement des deux ouvertures — 29 octobre 2026
 
 **Source : revue manuelle rapportée par l’utilisateur le 29 octobre 2026 à 08:19 Europe/Paris (UTC+01:00).** Exploration « **Recette GA4 — 28 octobre 2026** », propriété **559568920 / France Tuncq — Recette**, période fixe du **28 octobre**, tous les événements dans la colonne **9 h**. Aucun accès direct à GA4 ni nouvelle capture inspectée par l’agent à cette étape. Réception des quatre types applicatifs après correctif confirmée dans cette exploration, en complément de DebugView.

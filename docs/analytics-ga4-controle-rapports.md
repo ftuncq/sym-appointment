@@ -1,5 +1,15 @@
 # GA4 — contrôle des données existantes et préparation France
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+La réception dans Temps réel est maintenant acquise pour la production (propriété 559257505), distincte des recettes. Le statut courant des suites figure aussi en section 4 ci-dessous : rapports standards de production non contrôlés et « Personnalité juridique » toujours ouverte.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 **Intégration locale approuvée par délégation — 29 octobre 2026 :** l’utilisateur déclare la délégation de France et approuve les mentions visiteurs avec la formulation « France Tuncq et le prestataire chargé du développement et de la maintenance du site », ainsi que les deux harmonisations. Texte et harmonisations intégrés localement ; [contrôles, livrable isolé et procédure](analytics-ga4-livraison-20261029.md). Cette décision n’est ni une certification juridique ni une autorisation de publication/activation. Collecte désactivée. La rubrique « Personnalité juridique » du DPA demeure **vide / point administratif ouvert**, sans rattachement Marketing Platform ajouté.
 
 **État au 29 octobre 2026, relevé manuel à 08:19 Paris : réception après correctif acquise dans DebugView et dans l’exploration.** Dans « Recette GA4 — 28 octobre 2026 », propriété **559568920**, période fixe du **28 octobre**, l’utilisateur rapporte **21 événements, tous à 9 h** : `page_view` 8, `view_service` 6, `discover_session_click` 2, `reserve_click` 1, `first_visit` 2, `session_start` 2. Les traces des deux ouvertures manuelles du 28 concordent avec ces volumes : principale 7/6/2/1 et première ouverture interrompue 1 page vue ; chaque ouverture comporte `_fv=1` et `_ss=1`, avec des identifiants navigateur/session distincts comparés localement et masqués. **Concordance agrégée, pas attribution individuelle des lignes GA4.** Le relevé DebugView du 28 (5 `view_service`) est conservé comme observation datée ; le relevé ultérieur en affiche 6, sans démontrer la cause de cette évolution.
@@ -95,6 +105,22 @@ Preuves à conserver : capture du nom de propriété et de la fiche du flux/ID ;
 **Historique du contrôle prévu le 22 octobre :** la consultation a ensuite été rapportée par l'utilisateur le 28 octobre. Les données du 21 restent limitées à 9 h, sans événement affiché à 10 h ; le panneau du 22 indiquait 100 % des données disponibles, non échantillonnées, source intrajournalière. Le rapport consulté le matin du 21 était vide ; ces constats datés sont distincts. La passe recherchée reste 10:21:08–10:24:46 Paris, 13/1/5/3 événements applicatifs. **L'étape actuelle consiste à inspecter les paramètres de sélection de l'exploration**, selon le diagnostic du 28, plutôt qu'à seulement attendre ou rejouer les parcours. Aucune cause n'est attribuée au mode headless, au correctif ou à Google ; l'absence du 19 octobre reste inexpliquée.
 
 ## 4. Prérequis France restant avant une activation distinctement autorisée
+
+### Statut courant — 30 octobre 2026
+
+La liste d’avant activation est conservée plus bas pour la traçabilité. Elle ne décrit plus les actions à réaliser : publication, déploiement, autorisation d’activation, activation effective et réception des quatre types dans Temps réel sont **confirmés par l’utilisateur**. Le [compte rendu de production](analytics-ga4-production-20261030.md) distingue cette confirmation rapportée des contrôles locaux.
+
+| Point | État courant / responsable |
+| --- | --- |
+| Mentions, livrable, publication et activation | Acquis rapportés ; ne pas redemander l’approbation, la sauvegarde du panneau de transmission ou une nouvelle recette |
+| PHP web et OPcache | PHP 8.4.27, UID 664242226, OPcache activé, validate_timestamps=1 et revalidate_freq=2 rapportés ; réserve d’identité web clôturée sur cette base |
+| Réception de production | Quatre types dans Temps réel acquis ; compteurs sans attribution individuelle ni preuve de déduplication |
+| Rapports standards de production | Non encore contrôlés ; utilisateur disposant d’Analytics, consultation des données déjà reçues sans nouvelle collecte requise |
+| « Personnalité juridique » du DPA | Toujours ouverte ; France / administrateur Analytics |
+
+Les défauts locaux restent désactivés ; la configuration persistante de production est rapportée active. Critère de retrait et limites acceptés inchangés, aucune certification juridique globale.
+
+### Liste historique au 29 octobre — conservée, remplacée pour le statut courant
 
 **Liste actualisée le 29 octobre : seuls les éléments ci-dessous restent ouverts.** Les lignes de réception et de configuration inactive qui figuraient dans l’ancienne liste sont acquises, pas des contrôles à redemander.
 

@@ -1,5 +1,15 @@
 # Analytics France — publication SSH et retour arrière préparés, non exécutés
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+La procédure ci-dessous décrit la préparation initialement désactivée et la récupération. Son titre et ses restrictions historiques ne signifient plus qu’aucun déploiement n’a eu lieu : la publication du commit 29bcd686bc1dc5e7dfdccbfb937cead80c19c6bc puis l’activation sur G-MWZX1GYXZE sont rapportées exécutées. PHP web 8.4.27 / UID 664242226 et OPcache activé / validate_timestamps=1 / revalidate_freq=2 sont désormais confirmés par l’utilisateur. Les commandes ne sont pas rejouées, et le rapport n’atteste pas leur transcription exacte sur le serveur.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 Cette procédure, corrigée le **30 octobre 2026**, accompagne la branche **livraison/ga4-france-20261029**. Le commit applicatif **7033249c538127371ef23f4e25670edd547c83df** reste intact, directement issu du socle **360d7811c690940dc1fa67ed22f5f2f0873758c3**. Un commit documentaire supplémentaire porte cette correction ; le SHA à livrer est celui de release-sha.txt, et son parent direct n’est donc plus le socle. Aucun push, SSH, déploiement ou envoi Google n'a été effectué pendant sa préparation. Toute exécution distante ci-dessous nécessite une autorisation ultérieure. La collecte doit rester désactivée, y compris après retour arrière.
 
 ## Provenance et rattachement

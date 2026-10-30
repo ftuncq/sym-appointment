@@ -1,5 +1,15 @@
 # Mentions Analytics France — version approuvée par délégation le 29 octobre 2026
 
+## Actualisation — production du 30 octobre 2026
+
+**Déploiement, activation autorisée puis exécutée et réception des quatre événements dans Temps réel confirmés par l’utilisateur.** Voir le [compte rendu de mise en production](analytics-ga4-production-20261030.md). Les opérations et captures sont rapportées par l’utilisateur et son assistant ; aucune inspection directe du serveur, d’Analytics ou des captures de production par cet agent.
+
+La présence HTTP des mentions approuvées est confirmée par l’utilisateur avant activation. Le texte approuvé, la délégation et les harmonisations ne sont pas réécrits ; aucune nouvelle approbation ni certification juridique n’est ajoutée. La rubrique « Personnalité juridique » reste ouverte.
+
+Les statuts de préparation et de recette qui suivent sont conservés comme **historique daté**, sans annuler les acquis du 30 octobre ni rouvrir les contrôles déjà confirmés. Aucune nouvelle opération serveur n’est autorisée par cette actualisation.
+
+## Historique conservé
+
 **Approbation par délégation consignée le 29 octobre 2026.** L’utilisateur déclare que France Tuncq lui a délégué la validation et approuve explicitement le texte destiné aux visiteurs, avec « France Tuncq et le prestataire chargé du développement et de la maintenance du site ». Il autorise son intégration locale et les deux harmonisations ci-dessous. Ce texte est désormais intégré dans la section 11 du template local, sans notes internes. **Aucune publication, certification juridique ou autorisation d’activation.** La collecte reste désactivée. Le nom historique du fichier est conservé pour la traçabilité.
 
 Les éléments confirmés par l’utilisateur, les dispositions publiques Google et la limite du champ « Personnalité juridique » sont distingués dans le [dossier interne, section 8](analytics-ga4-controle-rapports.md#8-identité-accès-et-conditions-google--complément-du-29-octobre-2026). Le contact principal DPA n’est pas présenté comme un délégué à la protection des données. L’écart volontaire **siège 1 / correspondance 1B** est conservé.
