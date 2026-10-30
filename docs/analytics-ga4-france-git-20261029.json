@@ -2,7 +2,7 @@
   "schema_version": 1,
   "branch": "livraison/ga4-france-20261029",
   "base_commit": "360d7811c690940dc1fa67ed22f5f2f0873758c3",
-  "commit_reference": "Commit containing this file; exact SHA recorded after creation in var/analytics-git/release-sha.txt outside this commit",
+  "commit_reference": "Release HEAD includes preserved application_commit and a subsequent documentation-only correction; exact release SHA in var/analytics-git/release-sha.txt",
   "archive": "20261029-france.zip",
   "archive_sha256": "6e3bb812ffb307c422659f7974a51058ea1c90cdc489238077b397beb31006f3",
   "candidate_manifest": "docs/analytics-ga4-france-livrable-20261029.json",
@@ -587,5 +587,25 @@
     "Historical manifests retained without rewriting",
     "No new production/reception validation",
     "DPA Personnalité juridique remains open"
-  ]
+  ],
+  "application_commit": "7033249c538127371ef23f4e25670edd547c83df",
+  "documentation_revision": {
+    "date_paris": "2026-10-30",
+    "scope": [
+      "docs/analytics-ga4-publication-ssh.md",
+      "docs/analytics-ga4-france-git-20261029.json"
+    ],
+    "php_bin": "/opt/alt/php84/usr/bin/php",
+    "server_information": "User-reported; no direct SSH inspection",
+    "application_and_asset_bytes_changed": false,
+    "recovery": "Based on observed HEAD and markers written before mutations; also supports BASE with partial configuration and no post-configuration inventory",
+    "verification": {
+      "disposable_recovery_scenarios_passed": 8,
+      "php_blocks_linted": 8,
+      "bash_syntax": true,
+      "public_permission_commands_scope_checked": true,
+      "effective_linux_modes_and_web_identity_not_tested": true,
+      "local_evidence": "var/analytics-git/procedure-check-20261030/results.json"
+    }
+  }
 }
